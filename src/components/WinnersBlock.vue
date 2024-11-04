@@ -23,7 +23,7 @@
 import { defineComponent } from "vue";
 import type { Participant } from "@/models/Participant";
 import WinnerBadge from "./WinnerBadge.vue";
-import CustomButton from "./CustomButton.vue"; // Змінено імпорт на CustomButton
+import CustomButton from "./CustomButton.vue";
 
 export default defineComponent({
   name: "WinnersBlock",
